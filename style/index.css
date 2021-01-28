@@ -145,12 +145,12 @@ footer a:hover {
     }
 
     .galleryimage{
-        width: 48%;
+        width: 32%;
         margin: 1%; 
     }
 
     .introtext, .gallerytext {
-        width: 90%; 
+        width: 80%; 
         text-align: center; 
     }
 }
@@ -167,5 +167,14 @@ footer a:hover {
         line-height: 1em;
         text-align: center; 
     }
-
+    .introtext, .gallerytext {
+        font-size: 2vh;
+        padding: 6%;
+    }
+    h1 {
+        color: black;
+        font-size: 6vh; 
+        padding: 10%;
+        text-transform: uppercase; 
+    }
 }
